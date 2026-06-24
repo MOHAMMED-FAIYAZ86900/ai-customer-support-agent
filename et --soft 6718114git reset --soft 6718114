@@ -1,0 +1,26 @@
+[33mcommit e780b8b038f4b9d5511be5a2495beba4d5c55d6a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: MOHAMMED-FAIYAZ86900 <161556501+MOHAMMED-FAIYAZ86900@users.noreply.github.com>
+Date:   Wed Jun 24 07:59:20 2026 +0530
+
+    Remove API key from repository
+
+ backend/{.env => .env.example} | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+[33mcommit d5ae4fae76e83dbb8552e37d039657309296296f[m
+Merge: ae635f7 6718114
+Author: MOHAMMED-FAIYAZ86900 <161556501+MOHAMMED-FAIYAZ86900@users.noreply.github.com>
+Date:   Wed Jun 24 07:52:29 2026 +0530
+
+    Resolve merge conflict
+
+[33mcommit 6718114cb83e5bdd4148d582b334356fcc8aab17[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: MOHAMMED FAIYAZ <161556501+MOHAMMED-FAIYAZ86900@users.noreply.github.com>
+Date:   Wed Jun 24 07:48:05 2026 +0530
+
+    Update .gitignore to include additional files
+    
+    Added common development environment files to .gitignore
+
+ .gitignore | 223 [32m++[m[31m-----------------------------------------------------------[m
+ 1 file changed, 6 insertions(+), 217 deletions(-)

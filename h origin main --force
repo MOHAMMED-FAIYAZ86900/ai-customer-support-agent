@@ -1,0 +1,102 @@
+[33mcommit 73e7dad9924902b6341912ffb8bc392b8d2ccafe[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: MOHAMMED-FAIYAZ86900 <161556501+MOHAMMED-FAIYAZ86900@users.noreply.github.com>
+Date:   Wed Jun 24 15:16:37 2026 +0530
+
+    Initial WorkPodd submission
+
+ et --soft 6718114git reset --soft 6718114 | 26 [32m++++++++++++++++++++++++++[m
+ 1 file changed, 26 insertions(+)
+
+[33mcommit e780b8b038f4b9d5511be5a2495beba4d5c55d6a[m
+Author: MOHAMMED-FAIYAZ86900 <161556501+MOHAMMED-FAIYAZ86900@users.noreply.github.com>
+Date:   Wed Jun 24 07:59:20 2026 +0530
+
+    Remove API key from repository
+
+ backend/{.env => .env.example} | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+[33mcommit d5ae4fae76e83dbb8552e37d039657309296296f[m
+Merge: ae635f7 6718114
+Author: MOHAMMED-FAIYAZ86900 <161556501+MOHAMMED-FAIYAZ86900@users.noreply.github.com>
+Date:   Wed Jun 24 07:52:29 2026 +0530
+
+    Resolve merge conflict
+
+[33mcommit 6718114cb83e5bdd4148d582b334356fcc8aab17[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: MOHAMMED FAIYAZ <161556501+MOHAMMED-FAIYAZ86900@users.noreply.github.com>
+Date:   Wed Jun 24 07:48:05 2026 +0530
+
+    Update .gitignore to include additional files
+    
+    Added common development environment files to .gitignore
+
+ .gitignore | 223 [32m++[m[31m-----------------------------------------------------------[m
+ 1 file changed, 6 insertions(+), 217 deletions(-)
+
+[33mcommit ae635f77ee5bf663c17d69ba5fcfb70fa14f8fae[m
+Author: MOHAMMED-FAIYAZ86900 <161556501+MOHAMMED-FAIYAZ86900@users.noreply.github.com>
+Date:   Wed Jun 24 07:45:24 2026 +0530
+
+    WorkPodd AI Customer Support Agent
+
+ PROJECT_PLAN.md                                    |   29 [32m+[m
+ README-assets/approved.png                         |  Bin [31m0[m -> [32m71420[m bytes
+ README-assets/digital-product.png                  |  Bin [31m0[m -> [32m72433[m bytes
+ README-assets/fraud.png                            |  Bin [31m0[m -> [32m59544[m bytes
+ README-assets/not-delivered.png                    |  Bin [31m0[m -> [32m64501[m bytes
+ README.md                                          |  373 [32m+++[m
+ backend/.env                                       |    1 [32m+[m
+ backend/__init__.py                                |    0
+ backend/__pycache__/__init__.cpython-313.pyc       |  Bin [31m0[m -> [32m135[m bytes
+ backend/__pycache__/agent.cpython-313.pyc          |  Bin [31m0[m -> [32m1192[m bytes
+ backend/__pycache__/agent_llm.cpython-313.pyc      |  Bin [31m0[m -> [32m2118[m bytes
+ backend/__pycache__/database.cpython-313.pyc       |  Bin [31m0[m -> [32m1006[m bytes
+ backend/__pycache__/logs.cpython-313.pyc           |  Bin [31m0[m -> [32m805[m bytes
+ backend/__pycache__/main.cpython-313.pyc           |  Bin [31m0[m -> [32m2927[m bytes
+ .../__pycache__/openrouter_client.cpython-313.pyc  |  Bin [31m0[m -> [32m420[m bytes
+ backend/__pycache__/policy_engine.cpython-313.pyc  |  Bin [31m0[m -> [32m2346[m bytes
+ .../__pycache__/test_openrouter.cpython-313.pyc    |  Bin [31m0[m -> [32m615[m bytes
+ backend/__pycache__/tools.cpython-313.pyc          |  Bin [31m0[m -> [32m779[m bytes
+ backend/agent.py                                   |   52 [32m+[m
+ backend/agent_llm.py                               |   88 [32m+[m
+ backend/crm.db                                     |    0
+ backend/customers.json                             |  168 [32m+[m
+ backend/database.py                                |   25 [32m+[m
+ backend/logs.py                                    |   24 [32m+[m
+ backend/main.py                                    |   92 [32m+[m
+ backend/openrouter_client.py                       |   10 [32m+[m
+ backend/policy.txt                                 |   15 [32m+[m
+ backend/policy_engine.py                           |  150 [32m+[m
+ backend/test_openrouter.py                         |   14 [32m+[m
+ backend/tools.py                                   |   28 [32m+[m
+ frontend/.gitignore                                |   24 [32m+[m
+ frontend/README.md                                 |   16 [32m+[m
+ frontend/eslint.config.js                          |   21 [32m+[m
+ frontend/index.html                                |   13 [32m+[m
+ frontend/package-lock.json                         | 3372 [32m++++++++++++++++++++[m
+ frontend/package.json                              |   32 [32m+[m
+ frontend/public/favicon.svg                        |    1 [32m+[m
+ frontend/public/icons.svg                          |   24 [32m+[m
+ frontend/src/App.jsx                               |   53 [32m+[m
+ frontend/src/assets/hero.png                       |  Bin [31m0[m -> [32m13057[m bytes
+ frontend/src/assets/react.svg                      |    1 [32m+[m
+ frontend/src/assets/vite.svg                       |    1 [32m+[m
+ frontend/src/components/ChatBox.jsx                |  179 [32m++[m
+ frontend/src/components/LogsPanel.jsx              |   95 [32m+[m
+ frontend/src/index.css                             |    1 [32m+[m
+ frontend/src/main.jsx                              |    7 [32m+[m
+ frontend/vite.config.js                            |   10 [32m+[m
+ requirements.txt                                   |   21 [32m+[m
+ test_all_orders.py                                 |   26 [32m+[m
+ 49 files changed, 4966 insertions(+)
+
+[33mcommit 3d7f9af16a6047dca201c6529c0d41eb2e0ce862[m
+Author: MOHAMMED FAIYAZ <161556501+MOHAMMED-FAIYAZ86900@users.noreply.github.com>
+Date:   Wed Jun 24 07:45:08 2026 +0530
+
+    Initial commit
+
+ .gitignore | 218 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ LICENSE    |  21 [32m++++++[m
+ 2 files changed, 239 insertions(+)

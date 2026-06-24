@@ -1,0 +1,168 @@
+[
+  {
+    "customer_id": 1,
+    "name": "John Smith",
+    "order_id": "ORD1001",
+    "product": "Headphones",
+    "amount": 299,
+    "purchase_date": "2026-06-10",
+    "delivered": true,
+    "refund_used": false,
+    "fraudulent": false
+  },
+  {
+    "customer_id": 2,
+    "name": "Sarah Johnson",
+    "order_id": "ORD1002",
+    "product": "Bluetooth Speaker",
+    "amount": 199,
+    "purchase_date": "2026-06-09",
+    "delivered": true,
+    "refund_used": false,
+    "fraudulent": false
+  },
+  {
+    "customer_id": 3,
+    "name": "Michael Brown",
+    "order_id": "ORD1003",
+    "product": "Smart Watch",
+    "amount": 399,
+    "purchase_date": "2026-06-08",
+    "delivered": true,
+    "refund_used": false,
+    "fraudulent": false
+  },
+  {
+    "customer_id": 4,
+    "name": "Emma Wilson",
+    "order_id": "ORD1004",
+    "product": "Keyboard",
+    "amount": 99,
+    "purchase_date": "2026-06-07",
+    "delivered": true,
+    "refund_used": false,
+    "fraudulent": false
+  },
+  {
+    "customer_id": 5,
+    "name": "David Miller",
+    "order_id": "ORD1005",
+    "product": "Gaming Mouse",
+    "amount": 79,
+    "purchase_date": "2026-06-06",
+    "delivered": true,
+    "refund_used": false,
+    "fraudulent": false
+  },
+  {
+    "customer_id": 6,
+    "name": "James Anderson",
+    "order_id": "ORD1006",
+    "product": "Laptop Bag",
+    "amount": 49,
+    "purchase_date": "2026-03-01",
+    "delivered": true,
+    "refund_used": false,
+    "fraudulent": false
+    },
+{
+  "customer_id": 7,
+  "name": "Olivia Thomas",
+  "order_id": "ORD1007",
+  "product": "Monitor Stand",
+  "amount": 89,
+  "purchase_date": "2026-03-05",
+  "delivered": true,
+  "refund_used": false,
+  "fraudulent": false
+},
+{
+  "customer_id": 8,
+  "name": "Daniel Jackson",
+  "order_id": "ORD1008",
+  "product": "Webcam",
+  "amount": 120,
+  "purchase_date": "2026-03-10",
+  "delivered": true,
+  "refund_used": false,
+  "fraudulent": false
+},
+{
+  "customer_id": 9,
+  "name": "Sophia White",
+  "order_id": "ORD1009",
+  "product": "Digital Course",
+  "amount": 49,
+  "purchase_date": "2026-06-12",
+  "delivered": true,
+  "refund_used": false,
+  "fraudulent": false
+},
+{
+  "customer_id": 10,
+  "name": "William Harris",
+  "order_id": "ORD1010",
+  "product": "Ebook",
+  "amount": 25,
+  "purchase_date": "2026-06-12",
+  "delivered": true,
+  "refund_used": false,
+  "fraudulent": false
+},
+{
+  "customer_id": 11,
+  "name": "Ava Martin",
+  "order_id": "ORD1011",
+  "product": "Tablet",
+  "amount": 499,
+  "purchase_date": "2026-06-12",
+  "delivered": true,
+  "refund_used": true,
+  "fraudulent": false
+},
+{
+  "customer_id": 12,
+  "name": "Ethan Thompson",
+  "order_id": "ORD1012",
+  "product": "Camera",
+  "amount": 799,
+  "purchase_date": "2026-06-12",
+  "delivered": true,
+  "refund_used": true,
+  "fraudulent": false
+},
+{
+  "customer_id": 13,
+  "name": "Mia Garcia",
+  "order_id": "ORD1013",
+  "product": "Microphone",
+  "amount": 129,
+  "purchase_date": "2026-06-12",
+  "delivered": false,
+  "refund_used": false,
+  "fraudulent": false
+},
+{
+  "customer_id": 14,
+  "name": "Lucas Rodriguez",
+  "order_id": "ORD1014",
+  "product": "SSD",
+  "amount": 149,
+  "purchase_date": "2026-06-12",
+  "delivered": false,
+  "refund_used": false,
+  "fraudulent": false
+},
+{
+  "customer_id": 15,
+  "name": "Noah Lee",
+  "order_id": "ORD1015",
+  "product": "Laptop",
+  "amount": 999,
+  "purchase_date": "2026-06-12",
+  "delivered": true,
+  "refund_used": false,
+  "fraudulent": true
+}
+  
+]
