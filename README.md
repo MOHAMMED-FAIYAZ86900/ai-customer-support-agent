@@ -55,24 +55,55 @@ The system evaluates refund eligibility using business rules:
 
 # System Architecture
 
+The following diagram illustrates the overall architecture and request flow of the application.
+
+![AI Customer Support Agent Architecture](README-assets/architecture.png)
+
+### Architecture Flow
+
 ```text
 Customer
-    ↓
+   │
+   │ (Text / Voice Request)
+   ▼
 React Frontend
-    ↓
+(Chat UI + Voice Input + Admin Dashboard)
+   │
+   ▼
 FastAPI Backend
-    ↓
-Gemini 2.5 Flash (OpenRouter)
-    ↓
-Refund Validation Tool
-    ↓
-CRM Database
-    ↓
-Refund Policy Engine
-    ↓
-Decision + Reasoning Logs
+(API Endpoints)
+   │
+   ▼
+AI Agent (Gemini 2.5 Flash via OpenRouter)
+   │
+   ▼
+Tool Layer
+   │
+   ├── Customer Lookup
+   ├── Refund Policy Engine
+   └── Reasoning Logger
+   │
+   ▼
+Customer Database (CRM)
+customers.json
+   │
+   ▼
+Refund Decision
+   │
+   ▼
+Reasoning Logs + AI Response
 ```
 
+### Request Lifecycle
+
+1. The customer submits a refund request through text or voice.
+2. The React frontend sends the request to the FastAPI backend.
+3. The AI agent extracts the order ID from the customer's message.
+4. The Tool Layer retrieves customer information from the mock CRM database.
+5. The Refund Policy Engine validates all business rules, including fraud detection, delivery status, digital product restrictions, refund history, purchase amount, and refund window.
+6. Each validation step is recorded by the Logging Service.
+7. Gemini generates a customer-friendly response using the policy engine's decision.
+8. The frontend displays both the AI response and the real-time reasoning logs.
 ---
 
 # Technology Stack
